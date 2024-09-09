@@ -1,0 +1,3 @@
+# Receiver Set: RX Point923
+# Receiver Point (#) : X(m) : Y(m) : Z(m) : Distance (m) : Interference (dB) : Noise (dB) : SNR (dB) : SIR (dB) : SINR (dB)
+     1  4.215050e+00  1.471120e+00  1.000000e+00  1.991070e+00  -5.803853e+01  -9.100000e+01  3.213370e+01  -8.277662e-01  -8.299617e-01  

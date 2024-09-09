@@ -1,0 +1,504 @@
+begin_<points> RX Point1
+project_id 1
+active
+vertical_line no
+pattern_shown yes
+cube_size 0.25000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription no
+CVsVisible no
+CVsLocation -1
+PatternOption ReceiverAntennaOption
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude 0.000000000000000
+latitude 0.000000000000000
+visible no
+terrain
+end_<reference>
+nVertices 1
+2.500000000000000 2.489575000000000 1.000000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p no
+use_apg_acceleration no
+is_transmitter no
+is_receiver yes
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform -1
+alignmentMode spherical 0.00000 90.00000 0.00000
+rotation_x_calc 0.00000
+rotation_y_calc -0.00000
+rotation_z_calc -0.00000
+end_<pattern>
+power 0.00000
+end_<transmitter>
+begin_<receiver> 
+begin_<pattern> 
+antenna 2
+waveform 0
+alignmentMode spherical 90.00000 180.00000 0.00000
+rotation_x_calc -90.00000
+rotation_y_calc 90.00000
+rotation_z_calc -0.00000
+end_<pattern>
+NoiseFigure 3.00000
+end_<receiver>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>
+begin_<points> RX Point2
+project_id 2
+active
+vertical_line no
+pattern_shown yes
+cube_size 0.25000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription no
+CVsVisible no
+CVsLocation -1
+PatternOption ReceiverAntennaOption
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude 0.000000000000000
+latitude 0.000000000000000
+visible no
+terrain
+end_<reference>
+nVertices 1
+2.507371600000000 2.492628400000000 1.000000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p no
+use_apg_acceleration no
+is_transmitter no
+is_receiver yes
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform -1
+alignmentMode spherical 0.00000 90.00000 0.00000
+rotation_x_calc 0.00000
+rotation_y_calc -0.00000
+rotation_z_calc -0.00000
+end_<pattern>
+power 0.00000
+end_<transmitter>
+begin_<receiver> 
+begin_<pattern> 
+antenna 3
+waveform -1
+alignmentMode spherical 90.00000 180.00000 0.00000
+rotation_x_calc -90.00000
+rotation_y_calc 90.00000
+rotation_z_calc -0.00000
+end_<pattern>
+NoiseFigure 3.00000
+end_<receiver>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>
+begin_<points> RX Point3
+project_id 3
+active
+vertical_line no
+pattern_shown yes
+cube_size 0.25000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription no
+CVsVisible no
+CVsLocation -1
+PatternOption ReceiverAntennaOption
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude 0.000000000000000
+latitude 0.000000000000000
+visible no
+terrain
+end_<reference>
+nVertices 1
+2.510425000000000 2.500000000000000 1.000000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p no
+use_apg_acceleration no
+is_transmitter no
+is_receiver yes
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform -1
+alignmentMode spherical 0.00000 90.00000 0.00000
+rotation_x_calc 0.00000
+rotation_y_calc -0.00000
+rotation_z_calc -0.00000
+end_<pattern>
+power 0.00000
+end_<transmitter>
+begin_<receiver> 
+begin_<pattern> 
+antenna 4
+waveform -1
+alignmentMode spherical 90.00000 180.00000 0.00000
+rotation_x_calc -90.00000
+rotation_y_calc 90.00000
+rotation_z_calc -0.00000
+end_<pattern>
+NoiseFigure 3.00000
+end_<receiver>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>
+begin_<points> RX Point4
+project_id 4
+active
+vertical_line no
+pattern_shown yes
+cube_size 0.25000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription no
+CVsVisible no
+CVsLocation -1
+PatternOption ReceiverAntennaOption
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude 0.000000000000000
+latitude 0.000000000000000
+visible no
+terrain
+end_<reference>
+nVertices 1
+2.507371600000000 2.507371600000000 1.000000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p no
+use_apg_acceleration no
+is_transmitter no
+is_receiver yes
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform -1
+alignmentMode spherical 0.00000 90.00000 0.00000
+rotation_x_calc 0.00000
+rotation_y_calc -0.00000
+rotation_z_calc -0.00000
+end_<pattern>
+power 0.00000
+end_<transmitter>
+begin_<receiver> 
+begin_<pattern> 
+antenna 5
+waveform -1
+alignmentMode spherical 90.00000 180.00000 0.00000
+rotation_x_calc -90.00000
+rotation_y_calc 90.00000
+rotation_z_calc -0.00000
+end_<pattern>
+NoiseFigure 3.00000
+end_<receiver>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>
+begin_<points> RX Point5
+project_id 5
+active
+vertical_line no
+pattern_shown yes
+cube_size 0.25000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription no
+CVsVisible no
+CVsLocation -1
+PatternOption ReceiverAntennaOption
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude 0.000000000000000
+latitude 0.000000000000000
+visible no
+terrain
+end_<reference>
+nVertices 1
+2.500000000000000 2.510425000000000 1.000000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p no
+use_apg_acceleration no
+is_transmitter no
+is_receiver yes
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform -1
+alignmentMode spherical 0.00000 90.00000 0.00000
+rotation_x_calc 0.00000
+rotation_y_calc -0.00000
+rotation_z_calc -0.00000
+end_<pattern>
+power 0.00000
+end_<transmitter>
+begin_<receiver> 
+begin_<pattern> 
+antenna 6
+waveform -1
+alignmentMode spherical 90.00000 180.00000 0.00000
+rotation_x_calc -90.00000
+rotation_y_calc 90.00000
+rotation_z_calc -0.00000
+end_<pattern>
+NoiseFigure 3.00000
+end_<receiver>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>
+begin_<points> RX Point6
+project_id 6
+active
+vertical_line no
+pattern_shown yes
+cube_size 0.25000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription no
+CVsVisible no
+CVsLocation -1
+PatternOption ReceiverAntennaOption
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude 0.000000000000000
+latitude 0.000000000000000
+visible no
+terrain
+end_<reference>
+nVertices 1
+2.492628400000000 2.507371600000000 1.000000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p no
+use_apg_acceleration no
+is_transmitter no
+is_receiver yes
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform -1
+alignmentMode spherical 0.00000 90.00000 0.00000
+rotation_x_calc 0.00000
+rotation_y_calc -0.00000
+rotation_z_calc -0.00000
+end_<pattern>
+power 0.00000
+end_<transmitter>
+begin_<receiver> 
+begin_<pattern> 
+antenna 7
+waveform -1
+alignmentMode spherical 90.00000 180.00000 0.00000
+rotation_x_calc -90.00000
+rotation_y_calc 90.00000
+rotation_z_calc -0.00000
+end_<pattern>
+NoiseFigure 3.00000
+end_<receiver>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>
+begin_<points> RX Point7
+project_id 7
+active
+vertical_line no
+pattern_shown yes
+cube_size 0.25000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription no
+CVsVisible no
+CVsLocation -1
+PatternOption ReceiverAntennaOption
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude 0.000000000000000
+latitude 0.000000000000000
+visible no
+terrain
+end_<reference>
+nVertices 1
+2.489575000000000 2.500000000000000 1.000000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p no
+use_apg_acceleration no
+is_transmitter no
+is_receiver yes
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform -1
+alignmentMode spherical 0.00000 90.00000 0.00000
+rotation_x_calc 0.00000
+rotation_y_calc -0.00000
+rotation_z_calc -0.00000
+end_<pattern>
+power 0.00000
+end_<transmitter>
+begin_<receiver> 
+begin_<pattern> 
+antenna 8
+waveform -1
+alignmentMode spherical 90.00000 180.00000 0.00000
+rotation_x_calc -90.00000
+rotation_y_calc 90.00000
+rotation_z_calc -0.00000
+end_<pattern>
+NoiseFigure 3.00000
+end_<receiver>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>
+begin_<points> RX Point8
+project_id 8
+active
+vertical_line no
+pattern_shown yes
+cube_size 0.25000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription no
+CVsVisible no
+CVsLocation -1
+PatternOption ReceiverAntennaOption
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude 0.000000000000000
+latitude 0.000000000000000
+visible no
+terrain
+end_<reference>
+nVertices 1
+2.492628400000000 2.492628400000000 1.000000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p no
+use_apg_acceleration no
+is_transmitter no
+is_receiver yes
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform -1
+alignmentMode spherical 0.00000 90.00000 0.00000
+rotation_x_calc 0.00000
+rotation_y_calc -0.00000
+rotation_z_calc -0.00000
+end_<pattern>
+power 0.00000
+end_<transmitter>
+begin_<receiver> 
+begin_<pattern> 
+antenna 9
+waveform -1
+alignmentMode spherical 90.00000 180.00000 0.00000
+rotation_x_calc -90.00000
+rotation_y_calc 90.00000
+rotation_z_calc -0.00000
+end_<pattern>
+NoiseFigure 3.00000
+end_<receiver>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>
+begin_<points> TX Point209
+project_id 209
+active
+vertical_line no
+pattern_shown yes
+cube_size 0.10000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription no
+CVsVisible no
+CVsLocation -1
+PatternOption TransmitterAntennaOption
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude 0.000000000000000
+latitude 0.000000000000000
+visible no
+terrain
+end_<reference>
+nVertices 1
+3.118033989000000 4.402113033000000 1.000000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p no
+use_apg_acceleration no
+is_transmitter yes
+is_receiver no
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform 0
+alignmentMode spherical 0.00000 90.00000 0.00000
+rotation_x_calc 0.00000
+rotation_y_calc -0.00000
+rotation_z_calc -0.00000
+end_<pattern>
+power 0.00000
+end_<transmitter>
+begin_<receiver> 
+begin_<pattern> 
+antenna 0
+waveform -1
+alignmentMode spherical 0.00000 90.00000 0.00000
+rotation_x_calc 0.00000
+rotation_y_calc -0.00000
+rotation_z_calc -0.00000
+end_<pattern>
+NoiseFigure 3.00000
+end_<receiver>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>

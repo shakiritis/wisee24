@@ -1,0 +1,790 @@
+            <TxRxSet>
+              <remcom::rxapi::PointSet>
+                <ConformToTerrain>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ConformToTerrain>
+                <ControlPoints>
+                  <remcom::rxapi::ProjectedPointList>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="2.5"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="2.4895749999999999"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="1"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                  </remcom::rxapi::ProjectedPointList>
+                </ControlPoints>
+                <OutputID>
+                  <remcom::rxapi::Integer Value="1"/>
+                </OutputID>
+                <Receiver>
+                  <remcom::rxapi::Receiver>
+                    <Antenna>
+                      <remcom::rxapi::UserDefinedAntenna>
+                        <CableLoss>
+                          <remcom::rxapi::Double Value="0"/>
+                        </CableLoss>
+                        <Filename>
+                          <remcom::rxapi::FileDescription>
+                            <Filename>
+                              <remcom::rxapi::String Value="./state1.uan"/>
+                            </Filename>
+                            <FilenameChecksum>
+                              <remcom::rxapi::String/>
+                            </FilenameChecksum>
+                          </remcom::rxapi::FileDescription>
+                        </Filename>
+                        <Gain>
+                          <remcom::rxapi::Double Value="8.8288698196411133"/>
+                        </Gain>
+                        <PowerThreshold>
+                          <remcom::rxapi::Double Value="-250"/>
+                        </PowerThreshold>
+                        <VSWR>
+                          <remcom::rxapi::Double Value="1"/>
+                        </VSWR>
+                        <Waveform>
+                          <remcom::rxapi::Sinusoid>
+                            <Amplitude>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Amplitude>
+                            <Bandwidth>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Bandwidth>
+                            <CarrierFrequency>
+                              <remcom::rxapi::Double Value="28000000000"/>
+                            </CarrierFrequency>
+                            <Dispersive>
+                              <remcom::rxapi::Boolean Value="false"/>
+                            </Dispersive>
+                            <Phase>
+                              <remcom::rxapi::Double Value="0"/>
+                            </Phase>
+                          </remcom::rxapi::Sinusoid>
+                        </Waveform>
+                      </remcom::rxapi::UserDefinedAntenna>
+                    </Antenna>
+                    <AntennaAlignment>
+                      <remcom::rxapi::SphericalAlignment>
+                        <Phi>
+                          <remcom::rxapi::Double Value="90"/>
+                        </Phi>
+                        <Roll>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Roll>
+                        <Theta>
+                          <remcom::rxapi::Double Value="180"/>
+                        </Theta>
+                      </remcom::rxapi::SphericalAlignment>
+                    </AntennaAlignment>
+                    <CollectionRadius>
+                      <remcom::rxapi::Double Value="0"/>
+                    </CollectionRadius>
+                  </remcom::rxapi::Receiver>
+                </Receiver>
+                <ShortDescription>
+                  <remcom::rxapi::String Value="RX Point1"/>
+                </ShortDescription>
+                <UseAPGAcceleration>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </UseAPGAcceleration>
+              </remcom::rxapi::PointSet>
+            </TxRxSet>
+            <TxRxSet>
+              <remcom::rxapi::PointSet>
+                <ConformToTerrain>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ConformToTerrain>
+                <ControlPoints>
+                  <remcom::rxapi::ProjectedPointList>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="2.5073715999999999"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="2.4926284000000001"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="1"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                  </remcom::rxapi::ProjectedPointList>
+                </ControlPoints>
+                <OutputID>
+                  <remcom::rxapi::Integer Value="2"/>
+                </OutputID>
+                <Receiver>
+                  <remcom::rxapi::Receiver>
+                    <Antenna>
+                      <remcom::rxapi::UserDefinedAntenna>
+                        <CableLoss>
+                          <remcom::rxapi::Double Value="0"/>
+                        </CableLoss>
+                        <Filename>
+                          <remcom::rxapi::FileDescription>
+                            <Filename>
+                              <remcom::rxapi::String Value="./state2.uan"/>
+                            </Filename>
+                            <FilenameChecksum>
+                              <remcom::rxapi::String/>
+                            </FilenameChecksum>
+                          </remcom::rxapi::FileDescription>
+                        </Filename>
+                        <Gain>
+                          <remcom::rxapi::Double Value="7.3929500579833984"/>
+                        </Gain>
+                        <PowerThreshold>
+                          <remcom::rxapi::Double Value="-250"/>
+                        </PowerThreshold>
+                        <VSWR>
+                          <remcom::rxapi::Double Value="1"/>
+                        </VSWR>
+                        <Waveform>
+                          <remcom::rxapi::Sinusoid>
+                            <Amplitude>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Amplitude>
+                            <Bandwidth>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Bandwidth>
+                            <CarrierFrequency>
+                              <remcom::rxapi::Double Value="28000000000"/>
+                            </CarrierFrequency>
+                            <Dispersive>
+                              <remcom::rxapi::Boolean Value="false"/>
+                            </Dispersive>
+                            <Phase>
+                              <remcom::rxapi::Double Value="0"/>
+                            </Phase>
+                          </remcom::rxapi::Sinusoid>
+                        </Waveform>
+                      </remcom::rxapi::UserDefinedAntenna>
+                    </Antenna>
+                    <AntennaAlignment>
+                      <remcom::rxapi::SphericalAlignment>
+                        <Phi>
+                          <remcom::rxapi::Double Value="90"/>
+                        </Phi>
+                        <Roll>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Roll>
+                        <Theta>
+                          <remcom::rxapi::Double Value="180"/>
+                        </Theta>
+                      </remcom::rxapi::SphericalAlignment>
+                    </AntennaAlignment>
+                    <CollectionRadius>
+                      <remcom::rxapi::Double Value="0"/>
+                    </CollectionRadius>
+                  </remcom::rxapi::Receiver>
+                </Receiver>
+                <ShortDescription>
+                  <remcom::rxapi::String Value="RX Point2"/>
+                </ShortDescription>
+                <UseAPGAcceleration>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </UseAPGAcceleration>
+              </remcom::rxapi::PointSet>
+            </TxRxSet>
+            <TxRxSet>
+              <remcom::rxapi::PointSet>
+                <ConformToTerrain>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ConformToTerrain>
+                <ControlPoints>
+                  <remcom::rxapi::ProjectedPointList>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="2.5104250000000001"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="2.5"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="1"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                  </remcom::rxapi::ProjectedPointList>
+                </ControlPoints>
+                <OutputID>
+                  <remcom::rxapi::Integer Value="3"/>
+                </OutputID>
+                <Receiver>
+                  <remcom::rxapi::Receiver>
+                    <Antenna>
+                      <remcom::rxapi::UserDefinedAntenna>
+                        <CableLoss>
+                          <remcom::rxapi::Double Value="0"/>
+                        </CableLoss>
+                        <Filename>
+                          <remcom::rxapi::FileDescription>
+                            <Filename>
+                              <remcom::rxapi::String Value="./state3.uan"/>
+                            </Filename>
+                            <FilenameChecksum>
+                              <remcom::rxapi::String/>
+                            </FilenameChecksum>
+                          </remcom::rxapi::FileDescription>
+                        </Filename>
+                        <Gain>
+                          <remcom::rxapi::Double Value="7.5806698799133301"/>
+                        </Gain>
+                        <PowerThreshold>
+                          <remcom::rxapi::Double Value="-250"/>
+                        </PowerThreshold>
+                        <VSWR>
+                          <remcom::rxapi::Double Value="1"/>
+                        </VSWR>
+                        <Waveform>
+                          <remcom::rxapi::Sinusoid>
+                            <Amplitude>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Amplitude>
+                            <Bandwidth>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Bandwidth>
+                            <CarrierFrequency>
+                              <remcom::rxapi::Double Value="28000000000"/>
+                            </CarrierFrequency>
+                            <Dispersive>
+                              <remcom::rxapi::Boolean Value="false"/>
+                            </Dispersive>
+                            <Phase>
+                              <remcom::rxapi::Double Value="0"/>
+                            </Phase>
+                          </remcom::rxapi::Sinusoid>
+                        </Waveform>
+                      </remcom::rxapi::UserDefinedAntenna>
+                    </Antenna>
+                    <AntennaAlignment>
+                      <remcom::rxapi::SphericalAlignment>
+                        <Phi>
+                          <remcom::rxapi::Double Value="90"/>
+                        </Phi>
+                        <Roll>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Roll>
+                        <Theta>
+                          <remcom::rxapi::Double Value="180"/>
+                        </Theta>
+                      </remcom::rxapi::SphericalAlignment>
+                    </AntennaAlignment>
+                    <CollectionRadius>
+                      <remcom::rxapi::Double Value="0"/>
+                    </CollectionRadius>
+                  </remcom::rxapi::Receiver>
+                </Receiver>
+                <ShortDescription>
+                  <remcom::rxapi::String Value="RX Point3"/>
+                </ShortDescription>
+                <UseAPGAcceleration>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </UseAPGAcceleration>
+              </remcom::rxapi::PointSet>
+            </TxRxSet>
+            <TxRxSet>
+              <remcom::rxapi::PointSet>
+                <ConformToTerrain>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ConformToTerrain>
+                <ControlPoints>
+                  <remcom::rxapi::ProjectedPointList>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="2.5073715999999999"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="2.5073715999999999"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="1"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                  </remcom::rxapi::ProjectedPointList>
+                </ControlPoints>
+                <OutputID>
+                  <remcom::rxapi::Integer Value="4"/>
+                </OutputID>
+                <Receiver>
+                  <remcom::rxapi::Receiver>
+                    <Antenna>
+                      <remcom::rxapi::UserDefinedAntenna>
+                        <CableLoss>
+                          <remcom::rxapi::Double Value="0"/>
+                        </CableLoss>
+                        <Filename>
+                          <remcom::rxapi::FileDescription>
+                            <Filename>
+                              <remcom::rxapi::String Value="./state4.uan"/>
+                            </Filename>
+                            <FilenameChecksum>
+                              <remcom::rxapi::String/>
+                            </FilenameChecksum>
+                          </remcom::rxapi::FileDescription>
+                        </Filename>
+                        <Gain>
+                          <remcom::rxapi::Double Value="8.6384296417236328"/>
+                        </Gain>
+                        <PowerThreshold>
+                          <remcom::rxapi::Double Value="-250"/>
+                        </PowerThreshold>
+                        <VSWR>
+                          <remcom::rxapi::Double Value="1"/>
+                        </VSWR>
+                        <Waveform>
+                          <remcom::rxapi::Sinusoid>
+                            <Amplitude>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Amplitude>
+                            <Bandwidth>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Bandwidth>
+                            <CarrierFrequency>
+                              <remcom::rxapi::Double Value="28000000000"/>
+                            </CarrierFrequency>
+                            <Dispersive>
+                              <remcom::rxapi::Boolean Value="false"/>
+                            </Dispersive>
+                            <Phase>
+                              <remcom::rxapi::Double Value="0"/>
+                            </Phase>
+                          </remcom::rxapi::Sinusoid>
+                        </Waveform>
+                      </remcom::rxapi::UserDefinedAntenna>
+                    </Antenna>
+                    <AntennaAlignment>
+                      <remcom::rxapi::SphericalAlignment>
+                        <Phi>
+                          <remcom::rxapi::Double Value="90"/>
+                        </Phi>
+                        <Roll>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Roll>
+                        <Theta>
+                          <remcom::rxapi::Double Value="180"/>
+                        </Theta>
+                      </remcom::rxapi::SphericalAlignment>
+                    </AntennaAlignment>
+                    <CollectionRadius>
+                      <remcom::rxapi::Double Value="0"/>
+                    </CollectionRadius>
+                  </remcom::rxapi::Receiver>
+                </Receiver>
+                <ShortDescription>
+                  <remcom::rxapi::String Value="RX Point4"/>
+                </ShortDescription>
+                <UseAPGAcceleration>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </UseAPGAcceleration>
+              </remcom::rxapi::PointSet>
+            </TxRxSet>
+            <TxRxSet>
+              <remcom::rxapi::PointSet>
+                <ConformToTerrain>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ConformToTerrain>
+                <ControlPoints>
+                  <remcom::rxapi::ProjectedPointList>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="2.5"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="2.5104250000000001"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="1"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                  </remcom::rxapi::ProjectedPointList>
+                </ControlPoints>
+                <OutputID>
+                  <remcom::rxapi::Integer Value="5"/>
+                </OutputID>
+                <Receiver>
+                  <remcom::rxapi::Receiver>
+                    <Antenna>
+                      <remcom::rxapi::UserDefinedAntenna>
+                        <CableLoss>
+                          <remcom::rxapi::Double Value="0"/>
+                        </CableLoss>
+                        <Filename>
+                          <remcom::rxapi::FileDescription>
+                            <Filename>
+                              <remcom::rxapi::String Value="./state5.uan"/>
+                            </Filename>
+                            <FilenameChecksum>
+                              <remcom::rxapi::String/>
+                            </FilenameChecksum>
+                          </remcom::rxapi::FileDescription>
+                        </Filename>
+                        <Gain>
+                          <remcom::rxapi::Double Value="8.8508901596069336"/>
+                        </Gain>
+                        <PowerThreshold>
+                          <remcom::rxapi::Double Value="-250"/>
+                        </PowerThreshold>
+                        <VSWR>
+                          <remcom::rxapi::Double Value="1"/>
+                        </VSWR>
+                        <Waveform>
+                          <remcom::rxapi::Sinusoid>
+                            <Amplitude>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Amplitude>
+                            <Bandwidth>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Bandwidth>
+                            <CarrierFrequency>
+                              <remcom::rxapi::Double Value="28000000000"/>
+                            </CarrierFrequency>
+                            <Dispersive>
+                              <remcom::rxapi::Boolean Value="false"/>
+                            </Dispersive>
+                            <Phase>
+                              <remcom::rxapi::Double Value="0"/>
+                            </Phase>
+                          </remcom::rxapi::Sinusoid>
+                        </Waveform>
+                      </remcom::rxapi::UserDefinedAntenna>
+                    </Antenna>
+                    <AntennaAlignment>
+                      <remcom::rxapi::SphericalAlignment>
+                        <Phi>
+                          <remcom::rxapi::Double Value="90"/>
+                        </Phi>
+                        <Roll>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Roll>
+                        <Theta>
+                          <remcom::rxapi::Double Value="180"/>
+                        </Theta>
+                      </remcom::rxapi::SphericalAlignment>
+                    </AntennaAlignment>
+                    <CollectionRadius>
+                      <remcom::rxapi::Double Value="0"/>
+                    </CollectionRadius>
+                  </remcom::rxapi::Receiver>
+                </Receiver>
+                <ShortDescription>
+                  <remcom::rxapi::String Value="RX Point5"/>
+                </ShortDescription>
+                <UseAPGAcceleration>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </UseAPGAcceleration>
+              </remcom::rxapi::PointSet>
+            </TxRxSet>
+            <TxRxSet>
+              <remcom::rxapi::PointSet>
+                <ConformToTerrain>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ConformToTerrain>
+                <ControlPoints>
+                  <remcom::rxapi::ProjectedPointList>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="2.4926284000000001"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="2.5073715999999999"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="1"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                  </remcom::rxapi::ProjectedPointList>
+                </ControlPoints>
+                <OutputID>
+                  <remcom::rxapi::Integer Value="6"/>
+                </OutputID>
+                <Receiver>
+                  <remcom::rxapi::Receiver>
+                    <Antenna>
+                      <remcom::rxapi::UserDefinedAntenna>
+                        <CableLoss>
+                          <remcom::rxapi::Double Value="0"/>
+                        </CableLoss>
+                        <Filename>
+                          <remcom::rxapi::FileDescription>
+                            <Filename>
+                              <remcom::rxapi::String Value="./state6.uan"/>
+                            </Filename>
+                            <FilenameChecksum>
+                              <remcom::rxapi::String/>
+                            </FilenameChecksum>
+                          </remcom::rxapi::FileDescription>
+                        </Filename>
+                        <Gain>
+                          <remcom::rxapi::Double Value="8.7597599029541016"/>
+                        </Gain>
+                        <PowerThreshold>
+                          <remcom::rxapi::Double Value="-250"/>
+                        </PowerThreshold>
+                        <VSWR>
+                          <remcom::rxapi::Double Value="1"/>
+                        </VSWR>
+                        <Waveform>
+                          <remcom::rxapi::Sinusoid>
+                            <Amplitude>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Amplitude>
+                            <Bandwidth>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Bandwidth>
+                            <CarrierFrequency>
+                              <remcom::rxapi::Double Value="28000000000"/>
+                            </CarrierFrequency>
+                            <Dispersive>
+                              <remcom::rxapi::Boolean Value="false"/>
+                            </Dispersive>
+                            <Phase>
+                              <remcom::rxapi::Double Value="0"/>
+                            </Phase>
+                          </remcom::rxapi::Sinusoid>
+                        </Waveform>
+                      </remcom::rxapi::UserDefinedAntenna>
+                    </Antenna>
+                    <AntennaAlignment>
+                      <remcom::rxapi::SphericalAlignment>
+                        <Phi>
+                          <remcom::rxapi::Double Value="90"/>
+                        </Phi>
+                        <Roll>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Roll>
+                        <Theta>
+                          <remcom::rxapi::Double Value="180"/>
+                        </Theta>
+                      </remcom::rxapi::SphericalAlignment>
+                    </AntennaAlignment>
+                    <CollectionRadius>
+                      <remcom::rxapi::Double Value="0"/>
+                    </CollectionRadius>
+                  </remcom::rxapi::Receiver>
+                </Receiver>
+                <ShortDescription>
+                  <remcom::rxapi::String Value="RX Point6"/>
+                </ShortDescription>
+                <UseAPGAcceleration>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </UseAPGAcceleration>
+              </remcom::rxapi::PointSet>
+            </TxRxSet>
+            <TxRxSet>
+              <remcom::rxapi::PointSet>
+                <ConformToTerrain>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ConformToTerrain>
+                <ControlPoints>
+                  <remcom::rxapi::ProjectedPointList>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="2.4895749999999999"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="2.5"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="1"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                  </remcom::rxapi::ProjectedPointList>
+                </ControlPoints>
+                <OutputID>
+                  <remcom::rxapi::Integer Value="7"/>
+                </OutputID>
+                <Receiver>
+                  <remcom::rxapi::Receiver>
+                    <Antenna>
+                      <remcom::rxapi::UserDefinedAntenna>
+                        <CableLoss>
+                          <remcom::rxapi::Double Value="0"/>
+                        </CableLoss>
+                        <Filename>
+                          <remcom::rxapi::FileDescription>
+                            <Filename>
+                              <remcom::rxapi::String Value="./state7.uan"/>
+                            </Filename>
+                            <FilenameChecksum>
+                              <remcom::rxapi::String/>
+                            </FilenameChecksum>
+                          </remcom::rxapi::FileDescription>
+                        </Filename>
+                        <Gain>
+                          <remcom::rxapi::Double Value="8.5925798416137695"/>
+                        </Gain>
+                        <PowerThreshold>
+                          <remcom::rxapi::Double Value="-250"/>
+                        </PowerThreshold>
+                        <VSWR>
+                          <remcom::rxapi::Double Value="1"/>
+                        </VSWR>
+                        <Waveform>
+                          <remcom::rxapi::Sinusoid>
+                            <Amplitude>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Amplitude>
+                            <Bandwidth>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Bandwidth>
+                            <CarrierFrequency>
+                              <remcom::rxapi::Double Value="28000000000"/>
+                            </CarrierFrequency>
+                            <Dispersive>
+                              <remcom::rxapi::Boolean Value="false"/>
+                            </Dispersive>
+                            <Phase>
+                              <remcom::rxapi::Double Value="0"/>
+                            </Phase>
+                          </remcom::rxapi::Sinusoid>
+                        </Waveform>
+                      </remcom::rxapi::UserDefinedAntenna>
+                    </Antenna>
+                    <AntennaAlignment>
+                      <remcom::rxapi::SphericalAlignment>
+                        <Phi>
+                          <remcom::rxapi::Double Value="90"/>
+                        </Phi>
+                        <Roll>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Roll>
+                        <Theta>
+                          <remcom::rxapi::Double Value="180"/>
+                        </Theta>
+                      </remcom::rxapi::SphericalAlignment>
+                    </AntennaAlignment>
+                    <CollectionRadius>
+                      <remcom::rxapi::Double Value="0"/>
+                    </CollectionRadius>
+                  </remcom::rxapi::Receiver>
+                </Receiver>
+                <ShortDescription>
+                  <remcom::rxapi::String Value="RX Point7"/>
+                </ShortDescription>
+                <UseAPGAcceleration>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </UseAPGAcceleration>
+              </remcom::rxapi::PointSet>
+            </TxRxSet>
+            <TxRxSet>
+              <remcom::rxapi::PointSet>
+                <ConformToTerrain>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ConformToTerrain>
+                <ControlPoints>
+                  <remcom::rxapi::ProjectedPointList>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="2.4926284000000001"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="2.4926284000000001"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="1"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                  </remcom::rxapi::ProjectedPointList>
+                </ControlPoints>
+                <OutputID>
+                  <remcom::rxapi::Integer Value="8"/>
+                </OutputID>
+                <Receiver>
+                  <remcom::rxapi::Receiver>
+                    <Antenna>
+                      <remcom::rxapi::UserDefinedAntenna>
+                        <CableLoss>
+                          <remcom::rxapi::Double Value="0"/>
+                        </CableLoss>
+                        <Filename>
+                          <remcom::rxapi::FileDescription>
+                            <Filename>
+                              <remcom::rxapi::String Value="./state8.uan"/>
+                            </Filename>
+                            <FilenameChecksum>
+                              <remcom::rxapi::String/>
+                            </FilenameChecksum>
+                          </remcom::rxapi::FileDescription>
+                        </Filename>
+                        <Gain>
+                          <remcom::rxapi::Double Value="9.0718698501586914"/>
+                        </Gain>
+                        <PowerThreshold>
+                          <remcom::rxapi::Double Value="-250"/>
+                        </PowerThreshold>
+                        <VSWR>
+                          <remcom::rxapi::Double Value="1"/>
+                        </VSWR>
+                        <Waveform>
+                          <remcom::rxapi::Sinusoid>
+                            <Amplitude>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Amplitude>
+                            <Bandwidth>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Bandwidth>
+                            <CarrierFrequency>
+                              <remcom::rxapi::Double Value="28000000000"/>
+                            </CarrierFrequency>
+                            <Dispersive>
+                              <remcom::rxapi::Boolean Value="false"/>
+                            </Dispersive>
+                            <Phase>
+                              <remcom::rxapi::Double Value="0"/>
+                            </Phase>
+                          </remcom::rxapi::Sinusoid>
+                        </Waveform>
+                      </remcom::rxapi::UserDefinedAntenna>
+                    </Antenna>
+                    <AntennaAlignment>
+                      <remcom::rxapi::SphericalAlignment>
+                        <Phi>
+                          <remcom::rxapi::Double Value="90"/>
+                        </Phi>
+                        <Roll>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Roll>
+                        <Theta>
+                          <remcom::rxapi::Double Value="180"/>
+                        </Theta>
+                      </remcom::rxapi::SphericalAlignment>
+                    </AntennaAlignment>
+                    <CollectionRadius>
+                      <remcom::rxapi::Double Value="0"/>
+                    </CollectionRadius>
+                  </remcom::rxapi::Receiver>
+                </Receiver>
+                <ShortDescription>
+                  <remcom::rxapi::String Value="RX Point8"/>
+                </ShortDescription>
+                <UseAPGAcceleration>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </UseAPGAcceleration>
+              </remcom::rxapi::PointSet>
+            </TxRxSet>
+          </remcom::rxapi::TxRxSetList>
+        </TxRxSetList>
+      </remcom::rxapi::Scene>
+    </Scene>
+  </remcom::rxapi::Job>
+</InSite>

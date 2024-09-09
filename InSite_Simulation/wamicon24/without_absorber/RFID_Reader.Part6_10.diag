@@ -1,0 +1,330 @@
+
+
+wibatch version 3.4.4.11 - r77081
+  Built with Microsoft Visual Studio 1900
+  Built with Qt 4.8.7
+  Using Qt 4.8.7
+
+2024.02.20 16:19:23.757 Hostname: Insite-Desktop (pid: 7324)
+2024.02.20 16:19:23.757 Set working directory: E:/shakir/wamicon2024
+2024.02.20 16:19:23.788 Tue Feb 20 16:19:23 2024
+
+2024.02.20 16:19:23.819 OptiX Runtime version = 40100
+2024.02.20 16:19:23.819 CUDA Runtime version = 9.2
+2024.02.20 16:19:23.819 CUDA Driver version  = 11.0
+2024.02.20 16:19:23.819 GPU device #0: [GeForce RTX 2060], 7.5 capability, 30 total cores, 1024 threads per block
+
+2024.02.20 16:19:23.866 Initializing X3D model
+
+2024.02.20 16:19:23.882 ============ ATMOSPHERE ============
+
+2024.02.20 16:19:23.882 Pressure = 1013.25
+2024.02.20 16:19:23.882 Temperature = 22.2
+2024.02.20 16:19:23.882 Humidity = 50
+
+2024.02.20 16:19:23.882 Added 0 route and 0 snapshot platforms.
+2024.02.20 16:19:23.882 ============ GEOMETRY ============
+
+2024.02.20 16:19:23.882 Processing geometry (4 CPU threads)
+2024.02.20 16:19:23.882 Loaded geometry: ./RFID_Reader.X3DGeometry.cache
+
+2024.02.20 16:19:23.882  ============ TRANSMITTER/RECEIVER SETS ============
+
+2024.02.20 16:19:23.882 Generating transmitter and receiver sets
+2024.02.20 16:19:23.882 TxRx set: TX Point9  Set number: 9  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2024.02.20 16:19:23.882   Transmitter:
+2024.02.20 16:19:23.882     Input power (dBm): 0
+2024.02.20 16:19:23.882     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 28000  Phase (degrees): 0
+2024.02.20 16:19:23.882     Antenna: Omnidirectional  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1.2
+2024.02.20 16:19:23.882     E-plane first null beamwidth (degrees): 180  E-plane half power beamwidth (degrees): 60  H-plane first null beamwidth (degrees): 180  H-plane half power beamwidth (degrees): 90
+
+2024.02.20 16:19:23.882 TxRx set: TX Point10  Set number: 10  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2024.02.20 16:19:23.882   Transmitter:
+2024.02.20 16:19:23.882     Input power (dBm): 0
+2024.02.20 16:19:23.882     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 28000  Phase (degrees): 0
+2024.02.20 16:19:23.882     Antenna: Omnidirectional  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1.2
+2024.02.20 16:19:23.882     E-plane first null beamwidth (degrees): 180  E-plane half power beamwidth (degrees): 60  H-plane first null beamwidth (degrees): 180  H-plane half power beamwidth (degrees): 90
+
+2024.02.20 16:19:23.882 TxRx set: TX Point11  Set number: 11  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2024.02.20 16:19:23.882   Transmitter:
+2024.02.20 16:19:23.882     Input power (dBm): 0
+2024.02.20 16:19:23.882     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 28000  Phase (degrees): 0
+2024.02.20 16:19:23.882     Antenna: Omnidirectional  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1.2
+2024.02.20 16:19:23.882     E-plane first null beamwidth (degrees): 180  E-plane half power beamwidth (degrees): 60  H-plane first null beamwidth (degrees): 180  H-plane half power beamwidth (degrees): 90
+
+2024.02.20 16:19:23.882 TxRx set: TX Point12  Set number: 12  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2024.02.20 16:19:23.882   Transmitter:
+2024.02.20 16:19:23.882     Input power (dBm): 0
+2024.02.20 16:19:23.882     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 28000  Phase (degrees): 0
+2024.02.20 16:19:23.882     Antenna: Omnidirectional  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1.2
+2024.02.20 16:19:23.882     E-plane first null beamwidth (degrees): 180  E-plane half power beamwidth (degrees): 60  H-plane first null beamwidth (degrees): 180  H-plane half power beamwidth (degrees): 90
+
+2024.02.20 16:19:24.053 TxRx set: RX Point1  Set number: 1  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2024.02.20 16:19:24.053   Receiver:
+2024.02.20 16:19:24.053     Collection radius (m): auto
+2024.02.20 16:19:24.053     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 28000  Phase (degrees): 0
+2024.02.20 16:19:24.053     User-Defined Antenna:   Filename: ./state1.uan  Cable loss (dB): 0  Power threshold (dBm): -250  VSWR: 1  Gain (dBi): 8.82887
+
+
+2024.02.20 16:19:24.225 TxRx set: RX Point2  Set number: 2  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2024.02.20 16:19:24.225   Receiver:
+2024.02.20 16:19:24.225     Collection radius (m): auto
+2024.02.20 16:19:24.225     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 28000  Phase (degrees): 0
+2024.02.20 16:19:24.225     User-Defined Antenna:   Filename: ./state2.uan  Cable loss (dB): 0  Power threshold (dBm): -250  VSWR: 1  Gain (dBi): 7.39295
+
+
+2024.02.20 16:19:24.381 TxRx set: RX Point3  Set number: 3  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2024.02.20 16:19:24.381   Receiver:
+2024.02.20 16:19:24.381     Collection radius (m): auto
+2024.02.20 16:19:24.381     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 28000  Phase (degrees): 0
+2024.02.20 16:19:24.381     User-Defined Antenna:   Filename: ./state3.uan  Cable loss (dB): 0  Power threshold (dBm): -250  VSWR: 1  Gain (dBi): 7.58067
+
+
+2024.02.20 16:19:24.552 TxRx set: RX Point4  Set number: 4  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2024.02.20 16:19:24.552   Receiver:
+2024.02.20 16:19:24.552     Collection radius (m): auto
+2024.02.20 16:19:24.552     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 28000  Phase (degrees): 0
+2024.02.20 16:19:24.552     User-Defined Antenna:   Filename: ./state4.uan  Cable loss (dB): 0  Power threshold (dBm): -250  VSWR: 1  Gain (dBi): 8.63843
+
+
+2024.02.20 16:19:24.724 TxRx set: RX Point5  Set number: 5  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2024.02.20 16:19:24.724   Receiver:
+2024.02.20 16:19:24.724     Collection radius (m): auto
+2024.02.20 16:19:24.724     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 28000  Phase (degrees): 0
+2024.02.20 16:19:24.724     User-Defined Antenna:   Filename: ./state5.uan  Cable loss (dB): 0  Power threshold (dBm): -250  VSWR: 1  Gain (dBi): 8.85089
+
+
+2024.02.20 16:19:24.896 TxRx set: RX Point6  Set number: 6  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2024.02.20 16:19:24.896   Receiver:
+2024.02.20 16:19:24.896     Collection radius (m): auto
+2024.02.20 16:19:24.896     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 28000  Phase (degrees): 0
+2024.02.20 16:19:24.896     User-Defined Antenna:   Filename: ./state6.uan  Cable loss (dB): 0  Power threshold (dBm): -250  VSWR: 1  Gain (dBi): 8.75976
+
+
+2024.02.20 16:19:25.052 TxRx set: RX Point7  Set number: 7  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2024.02.20 16:19:25.052   Receiver:
+2024.02.20 16:19:25.052     Collection radius (m): auto
+2024.02.20 16:19:25.052     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 28000  Phase (degrees): 0
+2024.02.20 16:19:25.052     User-Defined Antenna:   Filename: ./state7.uan  Cable loss (dB): 0  Power threshold (dBm): -250  VSWR: 1  Gain (dBi): 8.59258
+
+
+2024.02.20 16:19:25.223 TxRx set: RX Point8  Set number: 8  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2024.02.20 16:19:25.223   Receiver:
+2024.02.20 16:19:25.223     Collection radius (m): auto
+2024.02.20 16:19:25.223     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 28000  Phase (degrees): 0
+2024.02.20 16:19:25.223     User-Defined Antenna:   Filename: ./state8.uan  Cable loss (dB): 0  Power threshold (dBm): -250  VSWR: 1  Gain (dBi): 9.07187
+
+
+2024.02.20 16:19:25.223   Auto Collection Radius = 0.0415662m
+2024.02.20 16:19:25.223 ============ MATERIALS ============
+
+2024.02.20 16:19:25.239 Material number: 0  Type: LayeredDielectric  Thickness (m): 0
+2024.02.20 16:19:25.239   Layer 0: 
+2024.02.20 16:19:25.239     Relative permittivity: 7  Conductivity (S/m): 0.015  Thickness (m): 0.3  Roughness (m): 0
+
+2024.02.20 16:19:25.239 Building structure facet lists...
+
+2024.02.20 16:19:25.239 ============ SCENE ============
+
+2024.02.20 16:19:25.239 Scene information: 
+                          Number of original facets: 12
+                          Number of spheres: 8
+
+                          Maximum Scene Distance: 19.0526
+                          Bounding box: 
+                            Minimum: (0, 0, 0)
+                            Maximum: (5, 5, 5)
+
+                          Number of superedges: 12
+
+2024.02.20 16:19:25.566 ============ MODEL ============
+
+2024.02.20 16:19:25.598 Starting X3D ray tracing for Tx set 9, point 1 (point 1 of 4 total)
+2024.02.20 16:19:25.598   Diffraction cone ray angle = 0.25
+2024.02.20 16:19:25.598   Using 1 GPU ray tracer (4 CPU threads)
+2024.02.20 16:19:25.660   Ray tracing ranges: 
+2024.02.20 16:19:25.660     Minimum phi: 0
+2024.02.20 16:19:25.660     Maximum phi: 360
+2024.02.20 16:19:25.660     Minimum theta: 0
+2024.02.20 16:19:25.660     Maximum theta: 180
+2024.02.20 16:19:25.660   Model parameters: 
+2024.02.20 16:19:25.660     Reflections:         2
+2024.02.20 16:19:25.660     Transmissions:       0
+2024.02.20 16:19:25.660     Diffractions:        1
+2024.02.20 16:19:25.660     Ray spacing (degrees): 0.25
+
+2024.02.20 16:19:25.660   Advanced model parameters:
+2024.02.20 16:19:25.660     Maximum reflections before first diffraction: 1
+2024.02.20 16:19:25.660     Maximum reflections between two diffractions: 0
+2024.02.20 16:19:25.660     Maximum reflections after last diffraction: 1
+2024.02.20 16:19:25.660   Detected 1 GPU devices.
+2024.02.20 16:19:25.676   Licensed 1 GPU devices.
+2024.02.20 16:19:25.676   Running on 1 GPU devices.
+2024.02.20 16:19:25.676     Device ID's: [ 0 ]
+2024.02.20 16:19:25.956   Optimized concurrent GPU rays: 65536
+
+2024.02.20 16:19:27.875   Beginning next round of queued diffractions
+
+2024.02.20 16:19:29.716   Total Number of Rays shot: 9437184
+2024.02.20 16:19:29.716   Total Number of active rays shot: 5888220
+2024.02.20 16:19:29.716   Total Initial Rays shot: 663228
+2024.02.20 16:19:29.716   1170 unique paths found.
+2024.02.20 16:19:29.716   48 partial paths from Tx to edges.
+
+2024.02.20 16:19:29.716   Calculating E-fields and generating output
+
+2024.02.20 16:19:29.716     ============ ATMOSPHERE ============
+2024.02.20 16:19:29.716     Frequency = 2.8e+10
+2024.02.20 16:19:29.716     Attenuation (db/km) = 0.136123
+2024.02.20 16:19:29.794     Original interaction chains:          1170
+2024.02.20 16:19:29.794     Interaction chains eliminated:          77
+2024.02.20 16:19:29.794     Physical paths generated:             1093
+2024.02.20 16:19:29.794     High power paths retained:            1093
+2024.02.20 16:19:29.794     Low power paths eliminated:              0
+
+
+2024.02.20 16:19:29.888 Starting X3D ray tracing for Tx set 10, point 1 (point 2 of 4 total)
+2024.02.20 16:19:29.888   Diffraction cone ray angle = 0.25
+2024.02.20 16:19:29.888   Using 1 GPU ray tracer (4 CPU threads)
+2024.02.20 16:19:29.903   Ray tracing ranges: 
+2024.02.20 16:19:29.903     Minimum phi: 0
+2024.02.20 16:19:29.903     Maximum phi: 360
+2024.02.20 16:19:29.903     Minimum theta: 0
+2024.02.20 16:19:29.903     Maximum theta: 180
+2024.02.20 16:19:29.903   Model parameters: 
+2024.02.20 16:19:29.903     Reflections:         2
+2024.02.20 16:19:29.903     Transmissions:       0
+2024.02.20 16:19:29.903     Diffractions:        1
+2024.02.20 16:19:29.903     Ray spacing (degrees): 0.25
+
+2024.02.20 16:19:29.903   Advanced model parameters:
+2024.02.20 16:19:29.903     Maximum reflections before first diffraction: 1
+2024.02.20 16:19:29.903     Maximum reflections between two diffractions: 0
+2024.02.20 16:19:29.903     Maximum reflections after last diffraction: 1
+2024.02.20 16:19:29.903   Detected 1 GPU devices.
+2024.02.20 16:19:29.903   Licensed 1 GPU devices.
+2024.02.20 16:19:29.903   Running on 1 GPU devices.
+2024.02.20 16:19:29.903     Device ID's: [ 0 ]
+2024.02.20 16:19:30.153   Optimized concurrent GPU rays: 65536
+
+2024.02.20 16:19:31.947   Beginning next round of queued diffractions
+
+2024.02.20 16:19:33.741   Total Number of Rays shot: 9568256
+2024.02.20 16:19:33.741   Total Number of active rays shot: 5776368
+2024.02.20 16:19:33.741   Total Initial Rays shot: 663228
+2024.02.20 16:19:33.741   1181 unique paths found.
+2024.02.20 16:19:33.741   48 partial paths from Tx to edges.
+
+2024.02.20 16:19:33.741   Calculating E-fields and generating output
+
+2024.02.20 16:19:33.741     ============ ATMOSPHERE ============
+2024.02.20 16:19:33.741     Frequency = 2.8e+10
+2024.02.20 16:19:33.741     Attenuation (db/km) = 0.136123
+2024.02.20 16:19:33.834     Original interaction chains:          1181
+2024.02.20 16:19:33.834     Interaction chains eliminated:          63
+2024.02.20 16:19:33.834     Physical paths generated:             1118
+2024.02.20 16:19:33.834     High power paths retained:            1118
+2024.02.20 16:19:33.834     Low power paths eliminated:              0
+
+
+2024.02.20 16:19:33.928 Starting X3D ray tracing for Tx set 11, point 1 (point 3 of 4 total)
+2024.02.20 16:19:33.928   Diffraction cone ray angle = 0.25
+2024.02.20 16:19:33.928   Using 1 GPU ray tracer (4 CPU threads)
+2024.02.20 16:19:33.944   Ray tracing ranges: 
+2024.02.20 16:19:33.944     Minimum phi: 0
+2024.02.20 16:19:33.944     Maximum phi: 360
+2024.02.20 16:19:33.944     Minimum theta: 0
+2024.02.20 16:19:33.944     Maximum theta: 180
+2024.02.20 16:19:33.944   Model parameters: 
+2024.02.20 16:19:33.944     Reflections:         2
+2024.02.20 16:19:33.944     Transmissions:       0
+2024.02.20 16:19:33.944     Diffractions:        1
+2024.02.20 16:19:33.944     Ray spacing (degrees): 0.25
+
+2024.02.20 16:19:33.944   Advanced model parameters:
+2024.02.20 16:19:33.944     Maximum reflections before first diffraction: 1
+2024.02.20 16:19:33.944     Maximum reflections between two diffractions: 0
+2024.02.20 16:19:33.944     Maximum reflections after last diffraction: 1
+2024.02.20 16:19:33.944   Detected 1 GPU devices.
+2024.02.20 16:19:33.944   Licensed 1 GPU devices.
+2024.02.20 16:19:33.944   Running on 1 GPU devices.
+2024.02.20 16:19:33.944     Device ID's: [ 0 ]
+2024.02.20 16:19:34.193   Optimized concurrent GPU rays: 65536
+
+2024.02.20 16:19:36.034   Beginning next round of queued diffractions
+
+2024.02.20 16:19:37.812   Total Number of Rays shot: 9371648
+2024.02.20 16:19:37.812   Total Number of active rays shot: 5802306
+2024.02.20 16:19:37.812   Total Initial Rays shot: 663228
+2024.02.20 16:19:37.812   1187 unique paths found.
+2024.02.20 16:19:37.812   48 partial paths from Tx to edges.
+
+2024.02.20 16:19:37.812   Calculating E-fields and generating output
+
+2024.02.20 16:19:37.812     ============ ATMOSPHERE ============
+2024.02.20 16:19:37.812     Frequency = 2.8e+10
+2024.02.20 16:19:37.812     Attenuation (db/km) = 0.136123
+2024.02.20 16:19:37.906     Original interaction chains:          1187
+2024.02.20 16:19:37.906     Interaction chains eliminated:          77
+2024.02.20 16:19:37.906     Physical paths generated:             1110
+2024.02.20 16:19:37.906     High power paths retained:            1110
+2024.02.20 16:19:37.906     Low power paths eliminated:              0
+
+
+2024.02.20 16:19:38.000 Starting X3D ray tracing for Tx set 12, point 1 (point 4 of 4 total)
+2024.02.20 16:19:38.000   Diffraction cone ray angle = 0.25
+2024.02.20 16:19:38.000   Using 1 GPU ray tracer (4 CPU threads)
+2024.02.20 16:19:38.015   Ray tracing ranges: 
+2024.02.20 16:19:38.015     Minimum phi: 0
+2024.02.20 16:19:38.015     Maximum phi: 360
+2024.02.20 16:19:38.015     Minimum theta: 0
+2024.02.20 16:19:38.015     Maximum theta: 180
+2024.02.20 16:19:38.015   Model parameters: 
+2024.02.20 16:19:38.015     Reflections:         2
+2024.02.20 16:19:38.015     Transmissions:       0
+2024.02.20 16:19:38.015     Diffractions:        1
+2024.02.20 16:19:38.015     Ray spacing (degrees): 0.25
+
+2024.02.20 16:19:38.015   Advanced model parameters:
+2024.02.20 16:19:38.015     Maximum reflections before first diffraction: 1
+2024.02.20 16:19:38.015     Maximum reflections between two diffractions: 0
+2024.02.20 16:19:38.015     Maximum reflections after last diffraction: 1
+2024.02.20 16:19:38.015   Detected 1 GPU devices.
+2024.02.20 16:19:38.015   Licensed 1 GPU devices.
+2024.02.20 16:19:38.015   Running on 1 GPU devices.
+2024.02.20 16:19:38.015     Device ID's: [ 0 ]
+2024.02.20 16:19:38.265   Optimized concurrent GPU rays: 65536
+
+2024.02.20 16:19:40.090   Beginning next round of queued diffractions
+
+2024.02.20 16:19:41.884   Total Number of Rays shot: 9502720
+2024.02.20 16:19:41.884   Total Number of active rays shot: 5889721
+2024.02.20 16:19:41.884   Total Initial Rays shot: 663228
+2024.02.20 16:19:41.884   1212 unique paths found.
+2024.02.20 16:19:41.884   48 partial paths from Tx to edges.
+
+2024.02.20 16:19:41.884   Calculating E-fields and generating output
+
+2024.02.20 16:19:41.884     ============ ATMOSPHERE ============
+2024.02.20 16:19:41.884     Frequency = 2.8e+10
+2024.02.20 16:19:41.884     Attenuation (db/km) = 0.136123
+2024.02.20 16:19:41.993     Original interaction chains:          1212
+2024.02.20 16:19:41.993     Interaction chains eliminated:          98
+2024.02.20 16:19:41.993     Physical paths generated:             1114
+2024.02.20 16:19:41.993     High power paths retained:            1114
+2024.02.20 16:19:41.993     Low power paths eliminated:              0
+
+
+
+2024.02.20 16:19:42.134 Tue Feb 20 16:19:42 2024
+
+2024.02.20 16:19:42.134 Writing P2M output files
+2024.02.20 16:19:42.165 Finished writing P2M output files
+
+2024.02.20 16:19:42.165 Geometry Processing Time: : 00:00:00.000
+2024.02.20 16:19:42.165 TxRx Set Generation Time: : 00:00:01.339
+2024.02.20 16:19:42.165 Path Discovery Time: 00:00:15.634
+2024.02.20 16:19:42.165 Path Generation Time: 00:00:00.365
+2024.02.20 16:19:42.165 Writing P2M Output Time: 00:00:00.027
+
+2024.02.20 16:19:42.165 Total Runtime: : 00:00:18.371

@@ -1,0 +1,3 @@
+# Receiver Set: RX Point509
+# Receiver Point (#) : X(m) : Y(m) : Z(m) : Distance (m) : Strongest Power (dBm) : Total Power (dBm) : Total Power With Phase (dBm) : Best SINR (dB) : RSSI (dBm)
+     1  5.000000e-01  2.500000e+00  1.000000e+00  0.000000e+00  -5.525110e+01  -5.230823e+01  -5.077492e+01  1.347296e-01  -5.230764e+01  

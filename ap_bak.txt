@@ -1,0 +1,99 @@
+import os
+import re
+import numpy as np
+import matplotlib.pyplot as plt
+from glob import glob
+from scipy.signal import savgol_filter
+import sys
+import random
+
+
+offset = int(sys.argv[1])
+absorber = int(sys.argv[2])
+sm = int(sys.argv[3])
+save = int(sys.argv[4])
+alg = sys.argv[5]
+
+def random_Distribution(arr):
+    result = np.random.choice(range(len(arr)), 1, p=arr/np.sum(arr))
+    return result[0]
+
+def find_Max(p):
+    maxx = p[0]
+    
+    for i in range(len(p)):
+        if p[i] > maxx:
+            maxx = p[i]
+    
+    return maxx
+
+def adaptivePursuit():
+    for i in range(len(q)):
+        q[i] = (1 - alpha)*q[i] + alpha * pw[i]
+    
+    Rmax = find_Max(pw)
+
+    for i in range(len(p)):
+        if pw[i]==Rmax:
+            p[i] += beta * (Pmax - p[i])
+        else:
+            p[i] += beta * (Pmin - p[i])
+
+    state = random_Distribution(p)+1
+
+    return state
+
+def epsilonGreedy():
+    
+
+k = 8
+epsilon = 0.9
+alpha = 0.025
+beta = 0.1
+Pmax = 0.86
+Pmin = 0.02
+p = [1/k]*k
+q = [0] * k
+
+if absorber == 1:
+    fp = "D:\\projects\\wamicon24\\p2ms\\1000_txrx\\power_absorber\\"
+    L = len('D:\\projects\\wamicon24\\p2ms\\1000_txrx\\power_absorber\\RFID_Reader.power.t001_')
+else:
+    fp = "D:\\projects\\wamicon24\\p2ms\\1000_txrx\\power\\"
+    L = len('D:\\projects\\wamicon24\\p2ms\\power\\1000_txrx\\RFID_Reader.power.t001_')
+
+p2ms = glob(fp+"*.p2m")
+
+prx_array = np.zeros((8,1000))
+
+
+for p2m in p2ms:
+    rx_id = int(p2m[-7:-4]) - 1
+    tx_id = int(p2m[L:len(p2m)-9]) - 9#74,83 = Linux; 56, 65 = Windows
+    with open(p2m, 'r') as f:
+        prx = float(f.readlines()[-1].split(' ')[-2])#.split('\n')
+    prx_array[rx_id][tx_id] += prx
+
+states = []
+pwrs = []
+for i in range(8):
+    shifted_rss = np.concatenate((prx_array[i][offset:], prx_array[i][:offset]))
+    rss_sm = savgol_filter(shifted_rss, sm, 3)
+    if i == 5:
+        rss_sm += 0
+    pwrs.append(rss_sm)
+pwrs = np.array(pwrs)
+
+
+
+for pw in pwrs.T:
+    if alg == 'ap':
+        state = adaptivePursuit()
+    if alg == 'eg':
+        state = epsilonGreedy()
+    states.append(state)
+
+states = [int(x) for x in states]
+
+plt.scatter([i+1 for i in range(len(states))], states)
+plt.show()

@@ -1,0 +1,49 @@
+# <Transmitter Set: Tx: 8 TX Point8 - Point 1> 
+# <Receiver Set: Rx: 391 RX Point391 > 
+# <number of receiver points>
+# <receiver point number> <number of paths for this point>
+#	rx pt summary:
+#	<received power (dBm)>
+#	<mean time of arrival (sec)>
+#	<delay spread (sec)>
+#		path summary:
+#		<path number>
+#		<total interactions for path> (not including Tx and Rx)
+#		<received power(dBm)>
+#		<phase(deg)>
+#		<time of arrival(sec)>
+#		<arrival theta(deg)>
+#		<arrival phi(deg)>
+#		<departure theta(deg)>
+#		<departure phi(deg)>
+#			interactions summary:
+#			<interaction description> (Tx:transmitter, Rx:receiver, T:transmission, R:reflection, D:diffraction)
+#			<cartesian locations of interactions> (including Tx and Rx)
+1
+1 5
+-66.1805 1.3527e-08 1.21887e-08
+1 0 -72.3341 -113.772 6.672e-09 90 -42.7784 90 137.222
+Tx-Rx 
+2.49263 2.49263 1
+1.02497 3.85067 1
+2 1 -81.8245 -126.911 2.17249e-08 90 -76.9726 90 -103.027
+Tx-R-Rx 
+2.49263 2.49263 1
+1.91591 0 1
+1.02497 3.85067 1
+3 2 -83.0289 -95.3166 2.42024e-08 90 -119.01 90 -119.01
+Tx-R-R-Rx 
+2.49263 2.49263 1
+1.11037 0 1
+0 2.00233 1
+1.02497 3.85067 1
+4 1 -83.0511 -69.9849 1.31475e-08 90 68.1315 90 111.869
+Tx-R-Rx 
+2.49263 2.49263 1
+1.48627 5 1
+1.02497 3.85067 1
+5 1 -84.5583 -127.428 1.25816e-08 90 -158.89 90 158.89
+Tx-R-Rx 
+2.49263 2.49263 1
+0 3.45496 1
+1.02497 3.85067 1

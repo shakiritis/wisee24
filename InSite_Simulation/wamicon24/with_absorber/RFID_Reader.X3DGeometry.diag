@@ -1,0 +1,33 @@
+
+
+wibatch version 3.4.4.11 - r77081
+  Built with Microsoft Visual Studio 1900
+  Built with Qt 4.8.7
+  Using Qt 4.8.7
+
+2024.09.01 21:05:47.688 Hostname: DESKTOP-98FO4UN (pid: 12472)
+2024.09.01 21:05:47.688 Set working directory: E:/projects/wamicon24/InSite_Simulation/wamicon24/with_absorber
+2024.09.01 21:05:47.689 Sun Sep 1 21:05:47 2024
+
+2024.09.01 21:05:47.689 Creating geolocated X3D geometry cache (4 threads): ./RFID_Reader.X3DGeometry.cache
+2024.09.01 21:05:47.742 Loaded geometry: ./newFlp.flp
+2024.09.01 21:05:47.744 Loaded geometry: ./newObject(8).object
+2024.09.01 21:05:47.747 Checking for duplicate facets
+2024.09.01 21:05:47.780 Scene: read 32 facets.
+2024.09.01 21:05:47.781   Creating candidate facets for edge creation
+2024.09.01 21:05:47.781     Done creating candidate facets for edge creation
+2024.09.01 21:05:47.782   Creating scene edges
+2024.09.01 21:05:47.782     Done creating scene edges
+2024.09.01 21:05:47.783   Finishing scene edges
+2024.09.01 21:05:47.783     Done finishing scene edges
+2024.09.01 21:05:47.784 Writing 32 triangles to cache file
+2024.09.01 21:05:47.784 Writing edgeset (30 edges) to cache
+2024.09.01 21:05:47.784 Writing property list (1 properties) to cache
+2024.09.01 21:05:47.784   Property: 0, name=po_object_type, 32 entries
+2024.09.01 21:05:47.785 Successfully generated geometry cache; exiting.
+
+2024.09.01 21:05:47.785 Sun Sep 1 21:05:47 2024
+
+
+
+2024.09.01 21:05:47.787 Total Runtime: : 00:00:00.097

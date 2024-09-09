@@ -1,0 +1,74 @@
+<!DOCTYPE InSite>
+<InSite version="3.4.4.11" revision="77081" shared="false" location="trunk" host="JW7-57" date="Tue Dec 13 2022">
+  <remcom::rxapi::CreateX3DGeometryCache>
+    <CPUThreads>
+      <remcom::rxapi::Integer Value="4"/>
+    </CPUThreads>
+    <CacheFilename>
+      <remcom::rxapi::FileDescription>
+        <Filename>
+          <remcom::rxapi::String Value="./RFID_Reader.X3DGeometry.cache"/>
+        </Filename>
+        <FilenameChecksum>
+          <remcom::rxapi::String/>
+        </FilenameChecksum>
+      </remcom::rxapi::FileDescription>
+    </CacheFilename>
+    <GeometryList>
+      <remcom::rxapi::GeometryList>
+        <Geometry>
+          <remcom::rxapi::FloorPlan>
+            <GeometrySource>
+              <remcom::rxapi::WirelessInSiteGeometry>
+                <Filename>
+                  <remcom::rxapi::FileDescription>
+                    <Filename>
+                      <remcom::rxapi::String Value="./newFlp.flp"/>
+                    </Filename>
+                    <FilenameChecksum>
+                      <remcom::rxapi::String/>
+                    </FilenameChecksum>
+                  </remcom::rxapi::FileDescription>
+                </Filename>
+              </remcom::rxapi::WirelessInSiteGeometry>
+            </GeometrySource>
+          </remcom::rxapi::FloorPlan>
+        </Geometry>
+        <Geometry>
+          <remcom::rxapi::Object>
+            <GeometrySource>
+              <remcom::rxapi::WirelessInSiteGeometry>
+                <Filename>
+                  <remcom::rxapi::FileDescription>
+                    <Filename>
+                      <remcom::rxapi::String Value="./newObject(8).object"/>
+                    </Filename>
+                    <FilenameChecksum>
+                      <remcom::rxapi::String/>
+                    </FilenameChecksum>
+                  </remcom::rxapi::FileDescription>
+                </Filename>
+              </remcom::rxapi::WirelessInSiteGeometry>
+            </GeometrySource>
+          </remcom::rxapi::Object>
+        </Geometry>
+      </remcom::rxapi::GeometryList>
+    </GeometryList>
+    <IncludeTerrainEdges>
+      <remcom::rxapi::Boolean Value="false"/>
+    </IncludeTerrainEdges>
+    <Origin>
+      <remcom::rxapi::GeographicPoint>
+        <Altitude>
+          <remcom::rxapi::Double Value="0"/>
+        </Altitude>
+        <Latitude>
+          <remcom::rxapi::Double Value="0"/>
+        </Latitude>
+        <Longitude>
+          <remcom::rxapi::Double Value="0"/>
+        </Longitude>
+      </remcom::rxapi::GeographicPoint>
+    </Origin>
+  </remcom::rxapi::CreateX3DGeometryCache>
+</InSite>

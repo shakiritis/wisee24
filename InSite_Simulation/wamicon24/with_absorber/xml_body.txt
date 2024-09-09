@@ -1,0 +1,103 @@
+            <TxRxSet>
+              <remcom::rxapi::PointSet>
+                <ConformToTerrain>
+                  <remcom::rxapi::Boolean Value="true"/>
+                </ConformToTerrain>
+                <ControlPoints>
+                  <remcom::rxapi::ProjectedPointList>
+                    <ProjectedPoint>
+                      <remcom::rxapi::CartesianPoint>
+                        <X>
+                          <remcom::rxapi::Double Value="2.1180339890000002"/>
+                        </X>
+                        <Y>
+                          <remcom::rxapi::Double Value="4.2121130329999996"/>
+                        </Y>
+                        <Z>
+                          <remcom::rxapi::Double Value="1"/>
+                        </Z>
+                      </remcom::rxapi::CartesianPoint>
+                    </ProjectedPoint>
+                  </remcom::rxapi::ProjectedPointList>
+                </ControlPoints>
+                <OutputID>
+                  <remcom::rxapi::Integer Value="212"/>
+                </OutputID>
+                <ShortDescription>
+                  <remcom::rxapi::String Value="TX Point212"/>
+                </ShortDescription>
+                <Transmitter>
+                  <remcom::rxapi::Transmitter>
+                    <Antenna>
+                      <remcom::rxapi::Omnidirectional>
+                        <CableLoss>
+                          <remcom::rxapi::Double Value="0"/>
+                        </CableLoss>
+                        <E_PlaneFirstNullBeamwidth>
+                          <remcom::rxapi::Double Value="180"/>
+                        </E_PlaneFirstNullBeamwidth>
+                        <E_PlaneHalfPowerBeamwidth>
+                          <remcom::rxapi::Double Value="60"/>
+                        </E_PlaneHalfPowerBeamwidth>
+                        <H_PlaneFirstNullBeamwidth>
+                          <remcom::rxapi::Double Value="180"/>
+                        </H_PlaneFirstNullBeamwidth>
+                        <H_PlaneHalfPowerBeamwidth>
+                          <remcom::rxapi::Double Value="90"/>
+                        </H_PlaneHalfPowerBeamwidth>
+                        <Polarization>
+                          <remcom::rxapi::PolarizationEnum Value="Vertical"/>
+                        </Polarization>
+                        <PowerThreshold>
+                          <remcom::rxapi::Double Value="-250"/>
+                        </PowerThreshold>
+                        <Temperature>
+                          <remcom::rxapi::Double Value="293"/>
+                        </Temperature>
+                        <VSWR>
+                          <remcom::rxapi::Double Value="1.2000000476837158"/>
+                        </VSWR>
+                        <Waveform>
+                          <remcom::rxapi::Sinusoid>
+                            <Amplitude>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Amplitude>
+                            <Bandwidth>
+                              <remcom::rxapi::Double Value="1"/>
+                            </Bandwidth>
+                            <CarrierFrequency>
+                              <remcom::rxapi::Double Value="28000000000"/>
+                            </CarrierFrequency>
+                            <Dispersive>
+                              <remcom::rxapi::Boolean Value="false"/>
+                            </Dispersive>
+                            <Phase>
+                              <remcom::rxapi::Double Value="0"/>
+                            </Phase>
+                          </remcom::rxapi::Sinusoid>
+                        </Waveform>
+                      </remcom::rxapi::Omnidirectional>
+                    </Antenna>
+                    <AntennaAlignment>
+                      <remcom::rxapi::SphericalAlignment>
+                        <Phi>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Phi>
+                        <Roll>
+                          <remcom::rxapi::Double Value="0"/>
+                        </Roll>
+                        <Theta>
+                          <remcom::rxapi::Double Value="90"/>
+                        </Theta>
+                      </remcom::rxapi::SphericalAlignment>
+                    </AntennaAlignment>
+                    <InputPower>
+                      <remcom::rxapi::Double Value="0"/>
+                    </InputPower>
+                  </remcom::rxapi::Transmitter>
+                </Transmitter>
+                <UseAPGAcceleration>
+                  <remcom::rxapi::Boolean Value="false"/>
+                </UseAPGAcceleration>
+              </remcom::rxapi::PointSet>
+            </TxRxSet>
